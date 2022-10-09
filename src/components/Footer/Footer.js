@@ -1,8 +1,18 @@
-import React from 'react';
-import { AiFillGithub, AiFillFacebook, AiFillLinkedin } from 'react-icons/ai';
+import React from "react";
+import { AiFillGithub, AiFillFacebook, AiFillLinkedin } from "react-icons/ai";
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { SocialIcons } from "../Header/HeaderStyles";
+import {
+  CompanyContainer,
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+  Slogan,
+  SocialContainer,
+  SocialIconsContainer,
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
@@ -14,24 +24,29 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:dukejay97@gmail.com">dukejay97@gmail.com</LinkItem>
+          <LinkItem href="mailto:tanmoyjoy7777@gmail.com">
+            tanmoyjoy7777@gmail.com
+          </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>"I don't want to be happy. I just want to change the world." - Aaron Swartz </Slogan>
+          <Slogan>
+            "I don't want to be happy. I just want to change the world." - Aaron
+            Swartz{" "}
+          </Slogan>
         </CompanyContainer>
         <SocialContainer>
-        <SocialIcons href="https://github.com/tanmoy77">
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.facebook.com/tanmoy.joy.589/">
-        <AiFillFacebook size="3rem" />
-      </SocialIcons>
-      </SocialContainer>
+          <SocialIcons href="https://github.com/tanmoy77">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://linkedin.com">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.facebook.com/tanmoy.joy.589/">
+            <AiFillFacebook size="3rem" />
+          </SocialIcons>
+        </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );

@@ -16,7 +16,7 @@ const Hero = (props) => (
         I am Tanmoy Joy
       </SectionTitle>
       <SectionText>
-        I am a full stack web developer experienced in Django and ReactJs
+        I am a full stack web developer experienced in MERN stack and Django.
       </SectionText>
       <Link href="#footer">
         <Button>Contact Me</Button>
